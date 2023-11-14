@@ -1,0 +1,110 @@
+form {
+  color: white;
+}
+
+.close {
+  text-align: end;
+  padding: 10px 10px 0 0;
+}
+
+.close button {
+  border: none;
+  background-color: transparent;
+  color: rgb(81, 81, 223);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.edit-profile {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+.edit-profile-picture,
+.theme-container label {
+  text-align: start;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-left: 40px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 38px;
+}
+
+label {
+  padding: 10px 0;
+}
+
+input,
+textarea {
+  outline: none;
+  font-size: 0.9rem;
+  background-color: rgb(131, 132, 133);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+textarea {
+  height: 70px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.input-image-container {
+  text-align: center;
+  margin: 20px 0 10px;
+}
+
+.img-item {
+  position: relative;
+}
+
+.input-image-container img {
+  width: 90px;
+  height: 100px;
+  object-fit: contain;
+  background-color: white;
+  margin: 8px 6px;
+  margin-bottom: 0;
+  border-radius: 12px;
+  padding: 5px 0;
+}
+
+.input-image-container span {
+  position: absolute;
+  color: yellow;
+  bottom: 6%;
+  right: 8%;
+  background-color: green;
+  display: block;
+  width: 19px;
+  height: 19px;
+  line-height: 19px;
+  border-radius: 50%;
+  border: 1px solid yellow;
+}
+
+.theme-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.pick-color {
+  border: 0;
+  padding: 0;
+  width: 80px;
+  height: 40px;
+  margin-left: 20px;
+}

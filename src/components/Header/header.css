@@ -1,0 +1,49 @@
+header {
+  height: 35vh;
+  padding: 20px;
+}
+
+.info-ava {
+  width: 150px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.info-container {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info-edit {
+  font-weight: bold;
+  padding: 9px;
+  border: 2px solid white;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.info-user {
+  font-size: 0.9rem;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30%;
+}
+
+.info-username,
+.info-age,
+.info-about {
+  color: white;
+}
+
+.info-username {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.info-age,
+.info-about {
+  font-weight: 400;
+}
